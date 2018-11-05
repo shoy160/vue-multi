@@ -132,7 +132,7 @@ exports.htmlPlugin = function () {
     let moduleName = getModuleName(filePath)
     let conf = {
       template: filePath,
-      filename: moduleName + '.html',
+      filename: ('app' === moduleName ? 'index' : moduleName) + '.html',
       chunks: ['manifest', 'vendor', moduleName],
       inject: true
     }

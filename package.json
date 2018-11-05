@@ -1,7 +1,7 @@
 {
   "name": "vue-multi",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Vue multi page application template project",
   "author": "shoy <634330628@qq.com>",
   "private": true,
   "scripts": {
